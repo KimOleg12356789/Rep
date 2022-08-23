@@ -1,0 +1,253 @@
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+    .rew .container {
+        overflow: hidden;
+    }
+
+    .work_block_wrap {
+        display: flex;
+        margin: 0 0;
+        flex-wrap: wrap;
+        margin: 0px 0px;
+    }
+
+    .menu_top {
+        margin: 0 -11px 0 0px;
+    }
+
+    .menu_top li {
+        padding: 0 0px;
+        display: inline-block;
+    }
+}
+
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1024px) {
+
+    .phone_bt {
+        display: block;
+        margin: 0 0 20px 0;
+    }
+
+    .ph_bt_wrap {
+        display: block;
+    }
+
+    .our_block_main {
+        width: 100%;
+    }
+
+    .about_block {
+        width: 40%;
+        padding: 0 0px 0 0;
+    }
+
+    .about_block2 {
+        width: 60%;
+    }
+
+
+    .menu_top li a {
+        padding: 0 8px;
+    }
+  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+    .menu_top {
+        display:none;
+    }
+
+    .burger {
+        display: block !important;
+    }
+
+    .menu_top li {
+        display: block;
+        margin: 0 0 15px 0;
+    }
+
+    .menu_top_mb {
+        display: block !important;
+        text-align: right;
+        padding: 20px 0 0 0;
+    }
+
+    .menu_top li a {
+        color:#fff;
+    }
+
+    .menu_top li a:hover:before {
+        display: none;
+    }
+  
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+    .logo_ft img {
+        width: 210px;
+    }
+
+    .social_title {
+        color: #02667d;
+        text-transform: uppercase;
+        font-size: 15px;
+        margin: 0 0 11px 0;
+        text-align: right;
+    }
+
+    .ft_title span {
+        font-family: 'palatinolinotype_bolditalic';
+        font-size: 23px;
+    }
+
+    .ft_title {
+        color: #02667d;
+        font-size: 13px;
+        text-align: center;
+        font-family: 'palatinolinotype_bold';
+    }
+
+    .work_block_main {
+        padding: 0 30px;
+        width: 50%;
+        margin-bottom: 60px;
+    }
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+
+    header {
+        position: relative;
+        padding: 11px 0;
+    }
+    .about_block_wrap {
+        flex-wrap: wrap;
+    }
+
+    .about_block {
+        width: 100%;
+        padding: 0 0px 0 0;
+    }
+
+    .burger {
+        top:30px;
+    }
+
+    .about_block2 {
+        width: 100%;
+        padding: 0 0px 0 0;
+    }
+
+    .work_block_main {
+        padding: 0 0px;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .back_block {
+        width: 100%;
+        padding: 0 35px 0 0px;
+        margin: 0 0 30px 0;
+    }
+
+    .back_block2 {
+        width: 100%;
+    }
+
+    .back_wrap {
+        display: block;
+    }
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+    .ft_block_wrap {
+        display: block;
+    }
+
+    .social_bt {
+        text-align: center;
+    }
+
+    .social_title {
+        text-align: center;
+    }
+
+    .ft_title {
+        text-align: center;
+    }
+
+    .logo_ft {
+        text-align: center;
+    }
+
+    .logo_ft img {
+        width: 300px;
+        margin: 0 0 10px 0;
+    }
+
+    .our_block {
+        text-align: center;
+        padding: 47px 15px 43px 15px;
+        background: url(../images/our_bg.png) 0 0 no-repeat;
+        background-size: cover;
+    }
+
+    .btn_down {
+        width: 100%;
+    }
+
+    .our_block_title {
+        font-size: 30px;
+    }
+
+    .btn_down {
+        font-size: 30px;
+    }
+
+    .our_title {
+        color: #02667d;
+        font-family: 'palatinolinotype_bolditalic';
+        font-size: 50px;
+        margin: 0 0 35px 0;
+    }
+
+    .logo {
+        width: 280px;
+    }
+
+    
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+  
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+
+}
